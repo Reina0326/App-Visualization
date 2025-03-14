@@ -13,12 +13,12 @@ st.subheader("Стресст өртөх магадлал / ISMA ")
 
 st.text("0 -ээс 4 = Стресст өртөх магадлал бага\n5 -өөс 14 = Стресст өртөх магадлал өндөр\n14 ба түүнээс их = Стрессийн түвшин өндөр")
 
-# Excel файл унших
-df = pd.read_excel('D:/visApp/modified_Responses.xlsx')
+url = 'https://raw.githubusercontent.com/Reina0326/App-Visualization/main/modified_Responses.xlsx'
+df = pd.read_excel(url)
 
 # Нийт оролцогчдын тоо
 parts = len(df["Row of Sum"])
-# st.markdown("Судалгаанд оролцсон хүмүүсийн статистик (Нийт оролцогчид: {parts}))
+
 minimum_counter = 0
 middle_counter = 0
 high_counter = 0
