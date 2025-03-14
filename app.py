@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import numpy as np
 
 st.header("""
 Хүн амын эрүүл мэндийн их өгөгдөл (Population based health big data)         
