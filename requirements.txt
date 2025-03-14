@@ -2,3 +2,4 @@ pandas==1.5.2
 matplotlib==3.5.2
 altair==5.5.0
 streamlit==1.43.1
+pyproject-distutils
