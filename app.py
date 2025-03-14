@@ -13,7 +13,8 @@ st.subheader("Стресст өртөх магадлал / ISMA ")
 
 st.text("0 -ээс 4 = Стресст өртөх магадлал бага\n5 -өөс 14 = Стресст өртөх магадлал өндөр\n14 ба түүнээс их = Стрессийн түвшин өндөр")
 
-url = 'https://raw.githubusercontent.com/Reina0326/App-Visualization/main/modified_Responses.xlsx'
+# url = 'https://raw.githubusercontent.com/Reina0326/App-Visualization/main/modified_Responses.xlsx'
+url = 'https://github.com/Reina0326/App-Visualization/main/modified_Responses.xlsx'
 df = pd.read_excel(url)
 
 # Нийт оролцогчдын тоо
