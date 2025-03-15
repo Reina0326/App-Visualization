@@ -114,3 +114,4 @@ scatter = alt.Chart(df).mark_point(color='goldenrod').encode(
     title="Нийт хүн амын стрессийн түвшин (Scatter Chart)"
 )
 st.altair_chart(scatter, use_container_width=True)
+
