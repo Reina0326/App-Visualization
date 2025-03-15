@@ -4,6 +4,17 @@ import altair as alt
 import requests
 import io
 
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.header("""
 Хүн амын эрүүл мэндийн их өгөгдөл (Population based health big data)         
 """)
